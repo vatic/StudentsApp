@@ -8,7 +8,23 @@
 </head>
 <body>
 
-<%= yield %>
+<div class="well">
+  <h1>Simple Students Registry</h1>
+</div>
+<div class="container app">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="list-group">
+        <a class="list-group-item" href="#">Students list</a>
+        <a class="list-group-item" href="#">Top 10 Students</a>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <%= yield %>
+    </div>
+  </div>
+</div>
+
 
 </body>
 </html>
